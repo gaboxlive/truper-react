@@ -12,7 +12,7 @@ export const PokemonInfo = ({ url }: PokemonInfoProps) => {
       <div className="w-4/12 mx-auto ">
         <img
           className="w-full h-full object-contain"
-          src={pokemonDetail?.sprites.front_default}
+          src={pokemonDetail?.sprites?.front_default}
           alt={url}
         />
       </div>
